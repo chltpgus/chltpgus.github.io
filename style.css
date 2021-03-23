@@ -371,8 +371,12 @@ span {
         display: block;
  
     }
+    .section4-contents1, .section4-contents2, .section4-contents3, .section4-contents4{
+        font-size: 15px;
+    }
     .section2-project, .section2-project2 {
         margin: 10px;
+        font-size: 15px;
         width: 400px;
 
     }
@@ -387,18 +391,38 @@ span {
     }
 
 }
+@media all and (max-height: 970px)
+{
+  
+    .section2-p2{
+        display: none;
+    }
+    .section2-p{
+        display: none;
+    }
+
+}
 
 @media all and (max-height: 910px)
 {
     .section4-contents4{
         display: none;
     }
+    
 
 }
 @media all and (max-height: 838px)
 {
     .aboutme01{
         display: none;
+    }
+
+}
+
+@media all and (max-height: 810px)
+{
+    .section2-title{
+        padding: 40px ;
     }
 
 }
