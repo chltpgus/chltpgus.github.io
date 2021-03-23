@@ -13,6 +13,7 @@
 body{
     color: azure;
     margin: 0;
+    font-family: 'Godo';
 }
 li{
     list-style:none;
@@ -183,8 +184,9 @@ a {
     justify-content: space-between;
 }
 .section4-contente-p{
-    padding: 20px;
-   
+    padding-left: 20px;
+   margin: 0 0;
+   text-align: center;
 }
 .section4-contente-p2{
     padding: 20px;
