@@ -54,8 +54,9 @@ a {
     font-size: 50px;
 }
 .title01{
-   margin: 30px;
-   margin-bottom: 80px;
+    text-align: center;
+   margin: 250px;
+   margin-bottom: 150px;
 }
 .name{
     font-size: 20px;
@@ -97,11 +98,10 @@ a {
 }
 
 .section2-title{
-    position: static;
+    text-align: center;
     font-size: 40px;
-    height: 100px;
-    padding-top: 20%;
-    padding-bottom: 100px;
+    padding: 50px 20px;
+
     text-decoration:overline;
 }
 
@@ -120,7 +120,7 @@ a {
 
 .section2-project, .section2-project2{
     background: rgb(0 0 0 / 64%);
-   
+   text-align: center;
     border-width: 1.5px;
     border-radius: 20px;
     padding: 20px;
@@ -172,18 +172,24 @@ a {
     height: 100%;
 }
 .section4-title{
+    padding: 50px 20px;
     text-decoration:overline;
+    text-align: center;
     font-size: 40px;
 }
 .section4-contente1, .section4-contente2,.section4-contente3,.section4-contente4{
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .section4-contente-p{
     padding: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
+   
+}
+.section4-contente-p2{
+    padding: 20px;
+
+   
 }
 .section5 {
     background-image: url(https://user-images.githubusercontent.com/67909892/112108790-08bfca00-8bf4-11eb-9ffb-64188fc2cf07.jpg);
@@ -192,14 +198,7 @@ a {
     background-size: cover;
 }
         
-section div {
-     font-family: 'Godo', sans-serif;
-    font-style: normal;
-    text-align: center;
-    position: relative;
-    top: 50%;  
-    transform: translateY(-50%);
-}
+
 
 span {
     font-size: 4em;
