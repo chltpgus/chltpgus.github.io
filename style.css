@@ -18,7 +18,6 @@ a {
     text-decoration:none 
 } 
 .section1 {
-  
     background-image: url(img/lead-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +31,7 @@ a {
     background: rgba(63, 63, 63, 0.452);
 }
 .btn-rounded-white:hover{
-    color:#3498db;
+    color:#000000;
     background:#fff;
     text-decoration:none
 }
