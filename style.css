@@ -95,7 +95,7 @@ a {
     position: static;
     font-size: 40px;
     padding-top: 20%;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     text-decoration:overline;
 }
 
@@ -108,7 +108,7 @@ a {
     justify-content: space-evenly;
     font-size: 20px;
     color: black;
-    height:400px;
+    height:650px;
     position: static;
 }
 
@@ -123,6 +123,22 @@ a {
 .section2-project-img, .section2-project-img2{
     width: 400px;
     border-radius: 10px;
+}
+.section2-p{
+    color: rgb(156, 156, 156);
+}
+.section2-btn:hover{
+    color:#ffffff;
+    background:rgb(87, 87, 87);
+    text-decoration:none
+}
+
+.section2-btn{
+    display:inline-block;
+    color:rgb(87, 87, 87);
+    padding:15px 25px;
+    border:3px solid rgb(87, 87, 87);
+    transition:.5s ease all
 }
 
 .section3 {
