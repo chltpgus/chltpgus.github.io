@@ -1,295 +1,56 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+	<title>Full page scroll</title>
+	<link rel="stylesheet" type="text/css" href="full-page-scroll.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>	
 </head>
-
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">소개</a>
-            </li>
-            <li>
-                <a href="#experience">경험</a>
-            </li>
-            <li>
-                <a href="#education">학적</a>
-            </li>
-            <li>
-                <a href="#projects">프로젝트</a>
-            </li>
-            <li>
-                <a href="#skills">기술</a>
-            </li>
-            <li>
-                <a href="#contact">이메일</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>백엔드 개발자</h1>
-            <h2>최세현</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        안녕하세요. 저는 최세현입니다. 만나서 반갑습니다.
-                        저는 어떤 것을 제작하고 동작 시키는 것을 좋아합니다.
-                        라즈베리파이로 흥미로운 작품을 만드는 것도 좋아합니다. 또한 웹 사이트 제작에 흥미가 있어 공부하고 있습니다.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="2018년 3월 –  2018년 7월">
-                <h3>별똥별 피하기 게임</h3>
-                <h4>C언어 - 4인 팀 프로젝트</h4>
-                <p>
-                    Microsoft Visual C++ 2010 Express를 이용해서 간단한 게임(별똥별 피하기 게임)을 제작하였다.
-                </p>
-            </div>
-
-            <div data-date="2019년 3월 –  2019년 7월">
-                <h3>다이어트 도움 어플리케이션</h3>
-                <h4>Android Studio - 3인 프로젝트</h4>
-                <p>
-                    Android Studio를 이용해서 다이어트를 돕는 어플리케이션을 만들었다.
-                </p>
-            </div>
-
-            <div data-date="2020년 6월 –  2020년 7월">
-                <h3>서해 용존산소량 학습 모듈 제작</h3>
-                <h4>Python, Jupyter - 1인 프로젝트</h4>
-                <p>
-                    Python, Jupyter 이용해 만들고 싶은 학습 모듈을 제작하였다.
-                </p>
-            </div>
-
-            <div data-date="2020년 3월 –  2020년 11월">
-                <h3>스마트 창문</h3>
-                <h4>Gcc, Apache, Php, Mysql, Python, Android Studio, Magic mirror2   - 4인 프로젝트</h4>
-                <p>
-                    라즈베리파이를 이용해서 어플리케이션으로 제어할 수 있는 IOT 스마트 창문을 제작하였다.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        
-        <div class="education-block">
-            <h3>구일고등학교</h3>
-            <span class="education-date">Sept 2014 - Sept 2017</span>
-            <h4>졸업</h4>
-           
-        </div>
-        <div class="education-block">
-            <h3>성결대학교</h3>
-            <span class="education-date">Sept 2017 - Sept 2021</span>
-            <h4>정보통신공학과 졸업</h4>
-            <p>
-                성결대학교에서 공학인증 절차를 따라서 졸업할 예정이다.
-            </p>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Shooting-stars.jpg" width="200" height="200" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>별똥별 피하기 게임</h3>
-                        <p>
-                            Microsoft Visual C++ 2010 Express를 이용해서 간단한 게임(별똥별 피하기 게임)을 제작하였다. 가운데 나오는 우주선을 방향키를 이용해서 사방에서 오는 별똥별들을 피하여 생존하는 게임이다. 게임이 끝나면 랭킹창에 가서 10위권에 있는 랭킹들을 볼 수 있다.
-                        </p>
-                        <a href="https://github.com/chltpgus/Avoid-shooting-stars">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Diet-management.jpg" width="200" height="200" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>다이어트 도움 어플리케이션</h3>
-                        <p>
-                            Android Studio를 이용해서 다이어트를 돕는 어플리케이션을 만들었다. 내가 냉장고에 가지고 있는 재료들을 선택해서 있는 재료들로 만들 수 있는 다이어트 음식 레시피를 추천해 주는 기능이 있다. 그리고 먹은 칼로리를 계산해서 운동에 따른 칼로리 소비와 운동을 해야하는 양을 알려준다. 유튜브를 연동해서 따라할 수 있는 운동 영상을 틀어주어 사용자의 운동을 돕는다.
-                        </p>
-                        <a href="https://github.com/chltpgus/Diet-management-application">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-               <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/oxygen.png" width="200" height="200" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>서해 용존산소량 학습 모듈 제작</h3>
-                        <p>
-                            Python, Jupyter를 이용해서 빅데이터를 분석하는 학습 모듈을 제작하였다. 서해 용존산소량을 분석하기 위해서 공공데이터 포털사이트에서 서해 바다 공공데이터를 받았고, 화학 산소량을 이진 분리해서 데이터를 정돈하고 모듈을 100번 학습해서 모듈을 만들었다.
-                        </p>
-                        <a href="https://github.com/chltpgus/West-Sea-dissolved-oxygen-prediction-module">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/Smart-window.jpg" width="200" height="200" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>스마트 창문</h3>
-                        <p>
-                            라즈베리파이를 이용해서 어플리케이션으로 제어할 수 있는 IOT 스마트 창문을 제작하였다.
-                            비가 오거나 미세먼지가 농도가 높거나 날씨가 추우면 자동으로 창문을 제어할 수 있고,
-                            어플리케이션으로도 창문을 제어할 수 있는 창문을 제작하였다. 어플리케이션으로는 집 내부의 온습도를 볼 수 있고 창문에 가까이 오는 외부인을 볼 수 있다.
-                        </p>
-                        <a href="https://github.com/chltpgus/smartwindow">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Php</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>Jupyter</li>
-            <li>R</li>
-            <li>Android Studio</li>
-            <li>Gcc</li>
-            <li>Mysql</li>
-            <li>Apache</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/chltpgusg@naver.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        chltpgusg@naver.com
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+	<div id="main" class="scroll-container">
+		<section class="section1">
+			<div class="section01">
+				<div class= "title01">
+					<h class="title">프론트엔드 개발자</h>
+					<p class="name">최세현</p>
+					<a href="#2" class="btn-rounded-white">Download Resume</a>
+				</div>		
+				<div class="aboutme01">
+					<h class="aboutme">about me |</h>
+					<p class="aboutme2">안녕하세요. 저는 최세현입니다. 만나서 반갑습니다.
+                        저는 어떤 것을 제작하고 배포하는 것을 좋아합니다. 그리고 새로운 것에 부딪혀 고민하고 해결하는 것도 좋아합니다.</p>
+				</div>		
+			</div>
+		</section>
+		<section class="section2">
+			<div>
+				<span>Page #2</span>				
+			</div>
+		</section>
+		<section class="section3">
+			<div>
+				<span>Page #3</span>				
+			</div>
+		</section>
+		<section class="section4">
+			<div>
+				<span>Page #4</span>				
+			</div>
+		</section>
+		<section class="section5">
+			<div>
+				<span>Page #5</span>				
+			</div>
+		</section>
+	</div>
+	<script src="full-page-scroll.js"></script>
+	<script type="text/javascript">
+		new fullScroll({
+			displayDots: true,
+			dotsPosition: 'left',
+			animateTime: 1,
+			animateFunction: 'ease'
+		});
+	</script>
 </body>
-
 </html>
