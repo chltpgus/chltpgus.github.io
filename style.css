@@ -259,7 +259,7 @@ span {
         width: 450px;
     }
     .section3-project-img, .section3-project-img2 {
-        height: 320px;
+        height: 350px;
     }
 
 }
@@ -273,7 +273,7 @@ span {
         width: 400px;
     }
     .section3-project-img, .section3-project-img2 {
-        height: 270px;
+        height: 330px;
     }
 
 }
@@ -287,7 +287,7 @@ span {
         width: 350px;
     }
     .section3-project-img, .section3-project-img2 {
-        height: 220px;
+        height: 310px;
     }
 
 }
@@ -301,15 +301,18 @@ span {
         width: 300px;
     }
     .section3-project-img, .section3-project-img2 {
-        height: 170px;
+        height: 290px;
     }
     .section4-contents3{
+        display: none;
+    }
+    .section2-btn2{
         display: none;
     }
 
 }
 
-@media all and (max-width: 800px)
+@media all and (max-width: 700px)
 {
     .section2-project, .section2-project2 {
         width: 250px;
@@ -318,9 +321,80 @@ span {
         width: 250px;
     }
     .section3-project-img, .section3-project-img2 {
-        height: 120px;
+        height: 270px;
     }
-    .section2-btn2{
+    
+    .section2-p{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 600px)
+{
+    h1, .title{
+        font-size: 30px;
+    }
+    .section2-projects{
+        display: block;
+    }
+    .section2-project-img, .section2-project-img2{
+        width: 100px;
+    }
+    .section2-project, .section2-project2 {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+        width: 400px;
+
+    }
+    .section3-project-img, .section3-project-img2 {
+        height: 150px;
+    }
+    .section2-p2{
+        display: none;
+    }
+    
+    .section2-title{
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width: 414px)
+{
+    .section2-projects{
+        display: block;
+ 
+    }
+    .section2-project, .section2-project2 {
+        margin: 10px;
+        width: 400px;
+
+    }
+   
+    .section2-p2{
+        display: none;
+    }
+    
+    .section2-title{
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-height: 910px)
+{
+    .section4-contents4{
+        display: none;
+    }
+
+}
+@media all and (max-height: 838px)
+{
+    .aboutme01{
         display: none;
     }
 
