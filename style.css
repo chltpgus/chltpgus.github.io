@@ -10,6 +10,9 @@
   font-weight: normal;
   src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
 }
+h1{
+    margin: 0 0;
+}
 body{
     color: azure;
     margin: 0;
@@ -178,17 +181,17 @@ a {
     text-align: center;
     font-size: 40px;
 }
-.section4-contente1, .section4-contente2,.section4-contente3,.section4-contente4{
+.section4-contents1, .section4-contents2,.section4-contents3,.section4-contents4{
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.section4-contente-p{
+.section4-contents-p{
     padding-left: 20px;
    margin: 0 0;
    text-align: center;
 }
-.section4-contente-p2{
+.section4-contents-p2{
     padding: 20px;
 }
 .section4-div{
@@ -206,7 +209,15 @@ width: 800px;
     background-position: center;
     background-size: cover;
 }
-        
+.section5-title{
+    padding: 50px 20px;
+    text-decoration:overline;
+    text-align: center;
+    font-size: 40px;
+}   
+.section5-contents{
+    text-align: center;
+}
 
 
 span {
