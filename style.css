@@ -72,13 +72,8 @@ a {
 }
 
 .aboutme2{
-    font-size: 40px;
-    flex: 0.5;
-}
-
-.aboutme2{
     font-size: 20px;
-    flex: 4;
+    flex: 3;
 }
 
 
@@ -99,7 +94,7 @@ a {
 }
         
 section div {
-    font-family: 'Godo', sans-serif;
+     font-family: 'Godo', sans-serif;
     font-style: normal;
     text-align: center;
     position: relative;
