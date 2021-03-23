@@ -165,7 +165,15 @@ a {
     background-position: center;
     background-size: cover;
 }
-
+.section4-title{
+    text-decoration:overline;
+    font-size: 40px;
+}
+.section4-contente1, .section4-contente2,.section4-contente3,.section4-contente4{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
 .section5 {
     background-image: url(https://user-images.githubusercontent.com/67909892/112108790-08bfca00-8bf4-11eb-9ffb-64188fc2cf07.jpg);
     background-repeat: no-repeat;
