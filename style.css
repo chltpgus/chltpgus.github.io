@@ -79,7 +79,50 @@ a {
 
 
 .section2 {
-    background-color: #98C19F; 
+    background-image: url(https://user-images.githubusercontent.com/67909892/112104087-12463380-8bee-11eb-9efb-eb52d59795d4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section02 {
+   height: 100%;
+   width: 100%;
+   background: rgba(63, 63, 63, 0.281);
+}
+
+.section2-title{
+    position: static;
+    font-size: 40px;
+    padding-top: 20%;
+    padding-bottom: 60px;
+    text-decoration:overline;
+}
+
+.section2-title-h{
+    text-decoration: overline;
+}
+
+.section2-projects{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: black;
+    height:400px;
+    position: static;
+}
+
+.section2-project, .section2-project2{
+    background: rgb(255, 255, 255);
+    border: solid gray;
+    border-width: 1.5px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section2-project-img, .section2-project-img2{
+    width: 400px;
+    border-radius: 10px;
 }
 
 .section3 {
