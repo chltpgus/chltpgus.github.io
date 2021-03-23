@@ -17,7 +17,11 @@ body{
     color: azure;
     margin: 0;
     font-family: 'Godo', sans-serif;
+    -ms-overflow-style:none; 
 }
+
+body::-webkit-scrollbar { display:none; }
+
 li{
     list-style:none;
     padding-left:0px;
@@ -34,7 +38,7 @@ a {
 }
 
 .section01{
-    position: absolute;
+  display: block;
     height: 100%;
     width: 100%;
     background: rgba(63, 63, 63, 0.452);
@@ -56,11 +60,13 @@ a {
 
 .title{
     font-size: 50px;
+  
 }
 .title01{
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
-   margin: 250px;
-   margin-bottom: 150px;
+  
 }
 .name{
     font-size: 20px;
@@ -68,9 +74,9 @@ a {
 
 
 .aboutme01{
-
-    display: flex;
+    display: block;
     border: solid rgb(78, 78, 78);
+   
     border-width: 2px;
     justify-content: space-between;
     background-color: rgb(255, 250, 244);
@@ -118,7 +124,7 @@ a {
     justify-content: space-evenly;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    height:650px;
+    height:auto;
     position: static;
 }
 
@@ -227,4 +233,46 @@ span {
     font-size: 4em;
     font-style: normal;
     color: #fff;
+}
+
+@media all and (max-width: 1300px)
+{
+    .section2-project, .section2-project2 {
+        width: 450px;
+    }
+    .section2-project-img, .section2-project-img2{
+        width: 450px;
+    }
+    .section3-project-img, .section3-project-img2 {
+        height: 320px;
+    }
+
+}
+
+@media all and (max-width: 1030px)
+{
+    .section2-project, .section2-project2 {
+        width: 400px;
+    }
+    .section2-project-img, .section2-project-img2{
+        width: 400px;
+    }
+    .section3-project-img, .section3-project-img2 {
+        height: 270px;
+    }
+
+}
+
+@media all and (max-width: 897px)
+{
+    .section2-project, .section2-project2 {
+        width: 350px;
+    }
+    .section2-project-img, .section2-project-img2{
+        width: 350px;
+    }
+    .section3-project-img, .section3-project-img2 {
+        height: 220px;
+    }
+
 }
