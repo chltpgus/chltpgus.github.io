@@ -348,8 +348,11 @@ span {
         width: 400px;
 
     }
-    .section3-project-img, .section3-project-img2 {
+    .section3-project-img{
         height: 150px;
+    }
+    .section3-project-img2 {
+        height: 120px;
     }
     .section2-p2{
         display: none;
