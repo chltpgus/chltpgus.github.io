@@ -394,24 +394,14 @@ span {
 }
 @media all and (max-height: 970px)
 {
-  
     .section2-p2{
         display: none;
     }
     .section2-p{
         display: none;
     }
-
 }
 
-@media all and (max-height: 910px)
-{
-    .section4-contents4{
-        display: none;
-    }
-    
-
-}
 @media all and (max-height: 838px)
 {
     .aboutme01{
