@@ -130,6 +130,10 @@ a {
     width: 400px;
     border-radius: 10px;
 }
+.section3-project-img, .section3-project-img2{
+    height:  370px;
+    border-radius: 10px;
+}
 .section2-p{
     color: rgb(156, 156, 156);
 }
