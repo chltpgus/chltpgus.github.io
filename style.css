@@ -137,7 +137,7 @@ a {
 }
 
 .section2-project-img, .section2-project-img2{
-    width: 400px;
+    height: 370px;
     border-radius: 10px;
 }
 .section3-project-img, .section3-project-img2{
@@ -257,7 +257,7 @@ span {
         width: 450px;
     }
     .section2-project-img, .section2-project-img2{
-        width: 450px;
+        height: 350px;
     }
     .section3-project-img, .section3-project-img2 {
         height: 350px;
@@ -271,7 +271,7 @@ span {
         width: 400px;
     }
     .section2-project-img, .section2-project-img2{
-        width: 400px;
+        height: 330px;
     }
     .section3-project-img, .section3-project-img2 {
         height: 330px;
@@ -285,7 +285,7 @@ span {
         width: 350px;
     }
     .section2-project-img, .section2-project-img2{
-        width: 350px;
+        height: 310px;
     }
     .section3-project-img, .section3-project-img2 {
         height: 310px;
@@ -299,7 +299,7 @@ span {
         width: 300px;
     }
     .section2-project-img, .section2-project-img2{
-        width: 300px;
+        height: 260px;
     }
     .section3-project-img, .section3-project-img2 {
         height: 290px;
@@ -319,7 +319,7 @@ span {
         width: 250px;
     }
     .section2-project-img, .section2-project-img2{
-        width: 250px;
+        height: 230px;
     }
     .section3-project-img, .section3-project-img2 {
         height: 270px;
@@ -340,7 +340,7 @@ span {
         display: block;
     }
     .section2-project-img, .section2-project-img2{
-        width: 100px;
+        height: 120px;
     }
     .section2-project, .section2-project2 {
         display: flex;
