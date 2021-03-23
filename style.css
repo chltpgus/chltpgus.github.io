@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Godo';
+  font-style: normal;
+  font-weight: normal;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+body{
+    color: azure;
+}
+
+a { 
+    text-decoration:none 
+} 
+.section1 {
+  
+    background-image: url(img/lead-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section01{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(63, 63, 63, 0.452);
+}
+.btn-rounded-white:hover{
+    color:#3498db;
+    background:#fff;
+    text-decoration:none
+}
+
+.btn-rounded-white{
+    display:inline-block;
+    color:#fff;
+    padding:15px 25px;
+    border:3px solid #fff;
+    border-radius:30px;
+    transition:.5s ease all
+}
+
+.title{
+    font-size: 50px;
+}
+.title01{
+   margin: 30px;
+   margin-bottom: 80px;
+}
+.name{
+    font-size: 20px;
+}
+
+
+.aboutme01{
+
+    display: flex;
+    border: solid rgb(78, 78, 78);
+    border-width: 2px;
+    justify-content: space-between;
+    background-color: rgb(255, 250, 244);
+    color: black;
+    padding: 50px;
+}
+.aboutme{
+    font-size: 40px;
+    flex: 1;
+}
+
+.aboutme2{
+    font-size: 20px;
+    flex: 3;
+}
+
+
+.section2 {
+    background-color: #98C19F; 
+}
+
+.section3 {
+    background-color:  #A199E2;
+}
+
+.section4 {
+    background-color:  #CC938E;
+}
+
+.section5 {
+    background-color:  #D2C598;
+}
+        
+section div {
+     font-family: 'Godo', sans-serif;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 50%;  
+    transform: translateY(-50%);
+}
+
+span {
+    font-size: 4em;
+    font-style: normal;
+    color: #fff;
+}
