@@ -13,7 +13,7 @@
 body{
     color: azure;
     margin: 0;
-    font-family: 'Godo';
+    font-family: 'Godo', sans-serif;
 }
 li{
     list-style:none;
