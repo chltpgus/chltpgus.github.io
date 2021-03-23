@@ -154,16 +154,23 @@ a {
 
 .section3 {
     background-image: url(https://user-images.githubusercontent.com/67909892/112108874-2725c580-8bf4-11eb-9e41-ad6f3aa30edc.jpg);
-    width: 100%;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section4 {
     background-image: url(https://user-images.githubusercontent.com/67909892/112108786-078e9d00-8bf4-11eb-9b83-47ea79c9210b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section5 {
     background-image: url(https://user-images.githubusercontent.com/67909892/112108790-08bfca00-8bf4-11eb-9ffb-64188fc2cf07.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
         
 section div {
