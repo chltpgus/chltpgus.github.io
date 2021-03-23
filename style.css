@@ -12,7 +12,6 @@
 }
 body{
     color: azure;
-    font-family: 'Godo', sans-serif;
 }
 
 a { 
@@ -95,7 +94,7 @@ a {
 }
         
 section div {
-    font-family: 'Open Sans';
+    font-family: 'Godo', sans-serif;
     font-style: normal;
     text-align: center;
     position: relative;
