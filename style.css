@@ -333,7 +333,7 @@ span {
 
 @media all and (max-width: 600px)
 {
-    h1, .title{
+    h1, .title, .aboutme01{
         font-size: 30px;
     }
     .section2-projects{
